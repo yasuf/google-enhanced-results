@@ -1,0 +1,20 @@
+{
+  "name": "Google Enhanced Results",
+  "version": "1.0",
+  "description": "Cleans up google results by using the old styling",
+  "manifest_version": 2,
+  // "default_locale": "en",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab", "https://google.com/"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "run_at": "document_end",
+      "js": ["content/google.js"],
+      "css": ["content/google.css"]
+    }
+  ]
+}
