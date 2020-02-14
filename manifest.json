@@ -18,7 +18,6 @@
       "matches": ["https://www.google.com/*"],
       "run_at": "document_end",
       "css": ["content/google.css"],
-      "js": ["content/google.js"]
     }
   ]
 }
