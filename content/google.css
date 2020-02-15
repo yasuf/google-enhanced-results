@@ -1,20 +1,3 @@
-/* Option 1: Remove the whole line */
-/*.xA33Gc {
-  display: none
-}
-.iUh30 {
-  display: none
-}
-.B6fmyf .yWc32e {
-  display: none
-}
-.TbwUpd br {
-  display: none
-}
-.srg br {
-  display: none
-}*/
-/* Option 2: Revert to the old style */
 .xA33Gc {
   display: none;
 }
@@ -42,17 +25,11 @@
   -moz-box-orient: vertical;
   box-orient: vertical;
 }
-/*.srg .g {
-  margin-bottom: 0;
-}*/
+
 .iUh30 {
   color: rgb(18, 106, 44);
 }
-.iUh30:hover {
-  /*text-decoration: none;
-  text-decoration-color: none;
-  text-decoration-style: none;*/
-}
+
 .r .LC20lb {
   padding-top: 0;
   margin-bottom: 0;
@@ -68,4 +45,16 @@
 
 .g:first br {
   display: none;
+}
+
+ .TbwUpd.NJjxre {
+  margin-top: 26px;
+}
+
+.action-menu.ab_ctl {
+  display: none;
+}
+
+.rc > .s {
+  margin-top: 22px;
 }

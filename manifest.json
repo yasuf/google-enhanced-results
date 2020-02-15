@@ -1,6 +1,6 @@
 {
   "name": "Google Old Results",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "Cleans up google results by using the old classic style with green links",
   "manifest_version": 2,
   "icons": {
@@ -12,13 +12,13 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": ["activeTab", "https://google.com/"],
+  "permissions": ["https://google.com/"],
   "content_scripts": [
     {
       "matches": ["https://www.google.com/*"],
       "run_at": "document_end",
-      "js": ["content/google.js"],
-      "css": ["content/google.css"]
+      "css": ["content/google.css"],
+      "js": ["content/google.js"]
     }
   ]
 }

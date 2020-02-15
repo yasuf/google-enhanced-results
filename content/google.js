@@ -1,3 +1,9 @@
-console.log("RUNNING GOOGLE CONTENT SCRIPT");
+// const alternativeResultsPresent =
+//   document.getElementsByClassName('TbwUpd NJjxre').length
 
-// Move all links to below the title
+// if (alternativeResultsPresent) {
+//   const sElements = document.querySelectorAll('.rc > .s');
+//   for(let i=0; i<sElements.length; i++) {
+//     sElements[i].setAttribute("style", "margin-top: 22px;");
+//   }
+// }
