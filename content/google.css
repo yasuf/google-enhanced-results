@@ -47,14 +47,10 @@
   display: none;
 }
 
- .TbwUpd.NJjxre {
-  margin-top: 26px;
+.TbwUpd.NJjxre {
+  position: relative;
 }
 
 .action-menu.ab_ctl {
   display: none;
-}
-
-.rc > .s {
-  margin-top: 22px;
 }
