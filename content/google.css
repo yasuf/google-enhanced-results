@@ -26,7 +26,7 @@
   box-orient: vertical;
 }
 
-.iUh30 {
+.iUh30, .iUh30 .eipWBe {
   color: rgb(18, 106, 44);
 }
 
@@ -39,11 +39,11 @@
   margin-bottom: 0;
 }
 
-#rcnt .r a:hover {
+#rcnt .rc a:hover {
   text-decoration: none;
 }
 
-.r br {
+.rc br {
   display: none;
 }
 
@@ -53,8 +53,9 @@
 
 .TbwUpd.NJjxre {
   position: relative;
+  display: block;
 }
 
-.action-menu.ab_ctl {
+.eFM0qc .action-menu {
   display: none;
 }
