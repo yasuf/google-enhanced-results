@@ -30,6 +30,10 @@
   color: rgb(18, 106, 44);
 }
 
+.r .eFM0qc {
+  display: none;
+}
+
 .r .LC20lb {
   padding-top: 0;
   margin-bottom: 0;
@@ -47,14 +51,10 @@
   display: none;
 }
 
- .TbwUpd.NJjxre {
-  margin-top: 26px;
+.TbwUpd.NJjxre {
+  position: relative;
 }
 
 .action-menu.ab_ctl {
   display: none;
-}
-
-.rc > .s {
-  margin-top: 22px;
 }
